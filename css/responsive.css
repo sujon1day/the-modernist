@@ -1,0 +1,27 @@
+/* TABLET LAYOUT */
+@media only screen and (max-width: 991px) and (min-width: 200px) {
+    .logo {width: 100%;padding-top: 33px;}
+    .slider_text h2 {font-size: 3rem;}
+    .service_title {width: 33%;;margin-bottom: 33px;margin-right: 33px;}
+    .inner_service {padding: 25px 112px;}
+}
+
+
+
+/* MOBILE LAYOUT */
+@media only screen and (max-width: 480px) and (min-width: 200px) {
+    .logo {padding-bottom: 13px;}
+    .slider_text {padding-top: 2rem;padding-left: 0rem;}
+    .slider_text h2 {font-size: 2rem;}
+    .slider_image {width: 33%;padding-right: 2rem;padding-top: 2rem;}
+    .slider_text {width: 53%;text-align: justify;}
+    .inner_service {padding: 0;}
+    .service_title { width: 45%;margin-bottom: 5px;margin-right: 5px;}
+    .inner_service { padding: 50px 0 50px 0;}
+    .child_footer {width: 100%;float: none;}
+    .child_footer h3 { padding: 36px 0;}
+    .left_copyright {float: none; width: 100%;text-align: center;}
+    .right_copyright {float: none;width: 100%;text-align: center;}
+}
+
+
